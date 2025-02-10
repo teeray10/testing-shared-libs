@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-theme',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'lib-theme',
+    imports: [],
+    template: `
     <p>
       theme works!
     </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class ThemeComponent {
 
