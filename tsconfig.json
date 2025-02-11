@@ -21,6 +21,9 @@
     "module": "ES2022",
     "lib": ["ES2022", "dom"],
     "paths": {
+      "auth": [
+        "./dist/auth"
+      ],
       "theme": ["./dist/theme"]
     }
   },
